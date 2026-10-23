@@ -32,3 +32,7 @@ TTL: 90 days. VERSIONS: 1.
 ## Example
 Monitor `m42`, measurement at 1792364536260 ms
 -> row key `m42#8207635463739`
+
+## Commands tested
+    create 'metrics', {NAME => 'm', VERSIONS => 1, TTL => 7776000}
+    scan 'metrics', {STARTROW => 'm42#', STOPROW => 'm42$', LIMIT => 2}
