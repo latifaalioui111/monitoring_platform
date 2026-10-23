@@ -1,0 +1,3 @@
+create 'metrics', {NAME => 'm', VERSIONS => 1, TTL => 7776000}
+describe 'metrics'
+
