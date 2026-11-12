@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+.pytest_cache/
 
 # Secrets et configuration locale
 .env
@@ -19,3 +20,5 @@ venv/
 .vscode/
 .idea/
 .DS_Store
+
+
