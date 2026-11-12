@@ -8,7 +8,6 @@ def health():
     return {"status": "ok"}
 
 
-
 @app.get("/version")
 def version():
     return {"service": "config-service", "version": "0.1.0"}
