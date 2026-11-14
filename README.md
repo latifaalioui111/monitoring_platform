@@ -1,5 +1,8 @@
 # Security-Aware Monitoring Platform
 
+![CI](https://github.com/latifaalioui111/monitoring_platform/actions/workflows/ci.yml/badge.svg)
+
+
 A platform that monitors the availability and security posture of web services,
 automatically detects incidents, and generates AI-powered incident analysis.
 
